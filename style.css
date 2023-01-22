@@ -312,7 +312,8 @@ PRODUCTS */
     overflow: hidden;
 }
 .pro-container:hover{
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    box-shadow:  0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .image-cont{
     overflow: hidden;
