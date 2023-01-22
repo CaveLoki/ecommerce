@@ -629,7 +629,7 @@ footer{
 .col4 .row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .col4 .row .rowimg{
     flex-basis: 48%;
@@ -638,7 +638,7 @@ footer{
 .col4 .row .rowimg img{
     border: 1px solid #088178;
     border-radius: 6px;
-    width: 100%;
+    width: 80%;
 } 
 .col4 .gateway{
     margin: 10px 0 15px 0;
@@ -696,6 +696,132 @@ footer .follow{
     to{
         opacity: 1;
         transform: translate(0px);
+    }
+}
+
+
+@media (max-width:1000px) {
+    .hero {
+        background-position: top 31% right 50%; 
+    }
+    #feature .fe-box{
+        flex-basis: 31%;
+    }
+    #banner{
+        height: 30vh;
+    }
+    .section-p1{
+        padding: 40px;
+    }
+}
+
+@media (max-width:770px) {
+
+    .mobi{
+        display: inline-block;
+    }
+    
+    .nav-active{
+        transform: translateX(0%);
+    }
+    .profile-menu{
+        display: none;
+    }
+    .navlinks li{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        margin: 15px;
+        padding: 10px 0;
+    }
+    .nav-links{
+        width: 40%;
+        height: 93.5vh;
+        top: 58px;
+        left: 0;
+        padding: 20px 30px;
+        position: absolute;
+        background-color: white;
+        z-index: 3;
+        text-align: left;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;  
+    }
+
+    .nav-active{
+        transform: translateX(0);
+    }
+    nav ul li {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 40px;
+        /* opacity: 0; */
+        padding: 5px 0;
+        font-size: 30px;
+    }   
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px,6px);
+    }
+    .toggle .line1{
+        opacity: 0;
+    }
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px,6px);
+    }
+    
+
+    nav ul li a{
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    nav li a img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        align-items: center;
+        margin-right: 5px;
+    }
+    nav li a i{
+        font-size: 16px;
+        padding-right: 5px;
+    }
+    .pro-container{
+        flex-basis: 47%;
+        max-width: 320px;
+        width: 47%;
+    }
+    .banner-up div{
+        height: 25vh;
+        flex-basis: 100%;
+        margin-bottom: 3px;
+    }
+    .banner-down{
+        padding: 2px 0;
+    }
+    .banner-down div{
+        padding: 10px;
+        flex-basis: 33%;
+        height: 20vh;
+    }
+    .banner-down div h2 {
+        font-weight: 800;
+        font-size: 20px;
+        text-align: left;
+        line-height: 28px;
+    }
+    .main-footer{
+        flex-wrap: wrap;
+    }
+    .main-footer .col4{
+        flex-basis: 50%;
     }
 }
 
