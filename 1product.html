@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&display=swap");
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <a href="#" class="logo"><img src="./kusnap-logo.webp" alt="" /></a>
+        <ul id="navLinks" class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+            <!-- mobile navbar -->
+
+            <li class="mobi"><a href="./profile.html"><img src="./image/girl-2961959_1280.jpg" alt="" /> John</a></li>
+            <li class="mobi"><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Sign Out</a></li>
+        </ul>
+
+        <!-- mobile burger ends -->
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+        <img src="./image/girl-2961959_1280.jpg" alt="" class="profile-menu" id="profileMenu" />
+
+        <!-- profile dropdown -->
+
+        <div class="menu-back" id="subMenu">
+            <div class="usermenu" id="usermenu">
+                <div class="show-menu" id="showMenu">
+                    <img src="./image/girl-2961959_1280.jpg" alt="" id="showMenu" />
+                    <h3 id="showMenu">John Gunney</h3>
+                </div>
+                <hr id="showMenu" />
+                <a href="#" class="submenu-link">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="submenu-link">
+                    <i class="fa-solid fa-gear"></i>
+                    <p>Setings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="submenu-link">
+                    <i class="fa-solid fa-headset"></i>
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="submenu-link">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section id="details" class="section-p1">
+        <div class="prod-left">
+            <img id="mainImg" src="./image/img/products/f1.jpg" alt="">
+            <div class="small-img">
+                <img id="smallImg" src="./image/img/products/f1.jpg" alt="">
+                <img id="smallImg" src="./image/img/products/f2.jpg" alt="">
+                <img id="smallImg" src="./image/img/products/f3.jpg" alt="">
+                <img id="smallImg" src="./image/img/products/f4.jpg" alt="">
+            </div>
+        </div>
+        <div class="prod-right">
+            <h6>Home / T-shirt</h6>
+            <h2>Men's Fashion T-shirt</h2>
+            <h2>$78.00</h2>
+            <select name="" id="">
+                <option value="">Select sizes</option>
+                <option value="">Small</option>
+                <option value="">Medium</option>
+                <option value="">Large</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+            </select>
+            <input type="number" name="" value="1" id="">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Details</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis id corrupti perspiciatis quos, deleniti explicabo quaerat ducimus odio unde eligendi quasi quo enim dicta odit? Aut molestias adipisci, temporibus vel deserunt enim rerum consectetur aspernatur at! Esse iste dolorem ea porro doloribus repudiandae aut nam quis quasi beatae, saepe aliquid.</p>
+        </div>
+    </section>
+
+    <section id="products" class="section-p1">
+        <h2>Featured products</h2>
+        <p>Summer Collection New Otutu Deign</p>
+        <div class="pro-box">
+            <div class="pro-container">
+                <div class="image-cont">
+                    <img src="./image/img/products/f5.jpg" alt="" />
+                </div>
+                <div class="pro-des">
+                    <span>adidas</span>
+                    <h5>Aso Oke T-Shirts</h5>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="pro-container">
+                <div class="image-cont">
+                    <img src="./image/img/products/f6.jpg" alt="" />
+                </div>
+                <div class="pro-des">
+                    <span>adidas</span>
+                    <h5>Blue Floral T-Shirts</h5>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="pro-container">
+                <div class="image-cont">
+                    <img src="./image/img/products/f7.jpg" alt="" />
+                </div>
+                <div class="pro-des">
+                    <span>adidas</span>
+                    <h5>Shoe Gbangba Bata Yahoo</h5>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="pro-container">
+                <div class="image-cont">
+                    <img src="./image/img/products/f8.jpg" alt="" />
+                </div>
+                <div class="pro-des">
+                    <span>adidas</span>
+                    <h5>Oloso T-Shirts</h5>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                    <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        const mainImg = document.getElementById('mainImg');
+        const smallImg = document.getElementById('smallImg');
+
+        smallImg[0].addEventListener('click', function(){
+            mainImg.src = smallImg[0].src;
+        })
+        smallImg[1].onclick = function(){
+            mainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function(){
+            mainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function(){
+            mainImg.src = smallImg[3].src;
+        }
+
+
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+
+
+
+        burger.addEventListener('click', () => {
+            // navbar toggle
+            nav.classList.toggle('nav-active');
+
+        })
+
+        burger.classList.toggle('.toggle');
+
+
+
+        const profileMenu = document.getElementById("profileMenu");
+        const subMenu = document.getElementById("subMenu");
+        const usermenu = document.getElementById("usermenu");
+
+        document.onclick = function (e) {
+            if (
+                e.target.id !== "usermenu" &&
+                e.target.id !== "profileMenu" &&
+                e.target.id !== "showMenu"
+            ) {
+                subMenu.classList.remove("openmenu");
+            }
+        };
+
+        profileMenu.onclick = function () {
+            subMenu.classList.toggle("openmenu");
+        };
+
+
+
+
+    </script>
+</body>
+
+</html>
