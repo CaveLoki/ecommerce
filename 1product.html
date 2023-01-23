@@ -80,12 +80,12 @@
     </nav>
     <section id="details" class="section-p1">
         <div class="prod-left">
-            <img id="mainImg" src="./image/img/products/f1.jpg" alt="">
+            <img id="mainImg"width="100%" src="./image/img/products/f1.jpg" alt="">
             <div class="small-img">
-                <img id="smallImg" src="./image/img/products/f1.jpg" alt="">
-                <img id="smallImg" src="./image/img/products/f2.jpg" alt="">
-                <img id="smallImg" src="./image/img/products/f3.jpg" alt="">
-                <img id="smallImg" src="./image/img/products/f4.jpg" alt="">
+                <img clas="smallImg" src="./image/img/products/f1.jpg" alt="">
+                <img class="smallImg" src="./image/img/products/f2.jpg" alt="">
+                <img class="smallImg" src="./image/img/products/f3.jpg" alt="">
+                <img class="smallImg" src="./image/img/products/f4.jpg" alt="">
             </div>
         </div>
         <div class="prod-right">
@@ -189,7 +189,7 @@
     <script>
 
         const mainImg = document.getElementById('mainImg');
-        const smallImg = document.getElementById('smallImg');
+        const smallImg = document.getElementsByClassName('smallImg');
 
         smallImg[0].addEventListener('click', function(){
             mainImg.src = smallImg[0].src;
