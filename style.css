@@ -1056,6 +1056,9 @@ footer .follow{
     display: flex;
     flex-direction: column;
 }
+.prod-left img{
+    cursor: pointer;
+}
 .prod-right{
     flex-basis: 50%;
     
@@ -1069,6 +1072,7 @@ footer .follow{
     width: 24%;
     flex-basis: 24%;
     padding-top: 5px;
+    cursor: pointer;
 }
 .prod-right h4{
     padding-top: 40px;
@@ -1103,6 +1107,6 @@ footer .follow{
     color: #fff;
 }
 .prod-right p{
-    line-height: 19px;
+    line-height: 20px;
     font-weight: 400;
 }

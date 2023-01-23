@@ -80,7 +80,7 @@
     </nav>
     <section id="details" class="section-p1">
         <div class="prod-left">
-            <img id="mainImg"width="100%" src="./image/img/products/f1.jpg" alt="">
+            <img id="mainImg" width="100%" src="./image/img/products/f1.jpg" alt="">
             <div class="small-img">
                 <img clas="smallImg" src="./image/img/products/f1.jpg" alt="">
                 <img class="smallImg" src="./image/img/products/f2.jpg" alt="">
@@ -191,9 +191,9 @@
         const mainImg = document.getElementById('mainImg');
         const smallImg = document.getElementsByClassName('smallImg');
 
-        smallImg[0].addEventListener('click', function(){
+        smallImg[0].onclick = function(){
             mainImg.src = smallImg[0].src;
-        })
+        }
         smallImg[1].onclick = function(){
             mainImg.src = smallImg[1].src;
         }
@@ -203,7 +203,8 @@
         smallImg[3].onclick = function(){
             mainImg.src = smallImg[3].src;
         }
-
+        
+    
 
         const burger = document.querySelector('.burger');
         const nav = document.querySelector('.nav-links');
