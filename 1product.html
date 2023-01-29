@@ -27,8 +27,8 @@
 
         <a href="#" class="logo"><img src="./kusnap-logo.webp" alt="" /></a>
         <ul id="navLinks" class="nav-links">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="./shop.html">Shop</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -80,9 +80,12 @@
     </nav>
     <section id="details" class="section-p1">
         <div class="prod-left">
-            <img id="mainImg" width="100%" src="./image/img/products/f1.jpg" alt="">
+            <div class="mainimg">
+                <img id="mainImg" width="100%" src="./image/img/products/f1.jpg" alt="">
+            </div>
+        
             <div class="small-img">
-                <img clas="smallImg" src="./image/img/products/f1.jpg" alt="">
+                <img class="smallImg" src="./image/img/products/f1 - Copy.jpg" alt="">
                 <img class="smallImg" src="./image/img/products/f2.jpg" alt="">
                 <img class="smallImg" src="./image/img/products/f3.jpg" alt="">
                 <img class="smallImg" src="./image/img/products/f4.jpg" alt="">
@@ -103,8 +106,13 @@
             <input type="number" name="" value="1" id="">
             <button class="normal">Add to Cart</button>
             <h4>Product Details</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis id corrupti perspiciatis quos, deleniti explicabo quaerat ducimus odio unde eligendi quasi quo enim dicta odit? Aut molestias adipisci, temporibus vel deserunt enim rerum consectetur aspernatur at! Esse iste dolorem ea porro doloribus repudiandae aut nam quis quasi beatae, saepe aliquid.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis id corrupti perspiciatis quos,
+                deleniti explicabo quaerat ducimus odio unde eligendi quasi quo enim dicta odit? Aut molestias adipisci,
+                temporibus vel deserunt enim rerum consectetur aspernatur at! Esse iste dolorem ea porro doloribus
+                repudiandae aut nam quis quasi beatae, saepe aliquid.</p>
         </div>
+
+        
     </section>
 
     <section id="products" class="section-p1">
@@ -191,20 +199,20 @@
         const mainImg = document.getElementById('mainImg');
         const smallImg = document.getElementsByClassName('smallImg');
 
-        smallImg[0].onclick = function(){
+        smallImg[0].onclick = function () {
             mainImg.src = smallImg[0].src;
         }
-        smallImg[1].onclick = function(){
+        smallImg[1].onclick = function () {
             mainImg.src = smallImg[1].src;
         }
-        smallImg[2].onclick = function(){
+        smallImg[2].onclick = function () {
             mainImg.src = smallImg[2].src;
         }
-        smallImg[3].onclick = function(){
+        smallImg[3].onclick = function () {
             mainImg.src = smallImg[3].src;
         }
-        
-    
+
+
 
         const burger = document.querySelector('.burger');
         const nav = document.querySelector('.nav-links');
