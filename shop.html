@@ -8,6 +8,7 @@
     <style>
         @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&display=swap");
     </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -42,7 +43,7 @@
         <!-- mobile burger ends -->
 
         <div id="mobile">
-            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="cart.html"><a href="cart.html"><i class='bx bx-shopping-bag' id="cart-icon"></i></a></a>
         </div>
         <img src="./image/girl-2961959_1280.jpg" alt="" class="profile-menu" id="profileMenu" />
 
@@ -89,13 +90,13 @@
     <section id="products" class="section-p1">
         
         <div class="pro-box">
-            <div class="pro-container" onclick="window.location.href='1product.html';">
+            <div class="pro-container" >
                 <div class="image-cont">
-                    <img src="./image/img/products/f1.jpg" alt="" />
+                    <img src="./image/img/products/f1.jpg" alt="" onclick="window.location.href='1product.html';"/>
                 </div>
                 <div class="pro-des">
                     <span>adidas</span>
-                    <h5>Adire Danshiki T-Shirts</h5>
+                    <h5 onclick="window.location.href='1product.html';">Adire Danshiki T-Shirts</h5>
                     <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
